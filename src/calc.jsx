@@ -11,7 +11,7 @@ function Calc() {
     : "bg-white text-gray-900 placeholder-gray-600";
 
   function getValue(id) {
-    return Number.parseInt(document.getElementById(id).value);
+    return Number.parseFloat(document.getElementById(id).value);
   }
 
   const operations = {
